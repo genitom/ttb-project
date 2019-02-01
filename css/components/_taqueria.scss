@@ -1,0 +1,28 @@
+.taqueria{
+    background: url(../../img/bg-classico.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+
+    padding-top: 50px;
+}
+.taqueria-figure{
+    background: url(../../img/classico-logo.png) no-repeat;
+    background-position: 50%;
+    min-height: 110px;
+    width: 100%;
+}
+.taqueria-logos{
+    max-width: 80%;
+    padding: 50px 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-item{
+    min-width: 18%;
+    max-width: calc(50% - 10px);
+    margin: 5px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,118 @@
+.banner-logo-faixa{
+    position: relative;
+    top: -125px;
+}
+.banner-logo-faixa > img{
+    min-height: 150px;
+}
+
+.banner-logo-container--left{
+    position: absolute;
+    min-width: 45%;
+    text-align: right;
+    padding: 10px;
+    top: 0;
+    left: 28%;
+    transform: translate(-50%);
+    font-family: oldPress;
+}
+.banner-logo-container{
+        line-height: 23px;
+        padding-top: 2%;
+    }
+.banner-logo-container > p{
+    font-size: 1rem;
+    color: $bege;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+.banner-logo-container__small{
+        display: block;
+        font-size: 0.6rem;
+        line-height: 10px;
+        margin-left: 48px;
+    }
+.banner-logo-container__medium{
+    font-size: 0.7rem;
+    display: block;
+    }
+.banner-logo-container__strong{
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+.banner-logo-container--right{
+    display: inline-block;
+    position: absolute;
+    transform: translate(-50%);
+    right: -18%;
+    top: 0;
+    min-width: 45%;
+    font-family: oldPress;
+    padding: 10px;
+    }
+
+@media (min-width: 470px){
+    .banner-logo-container > p{
+    font-size: 1.6rem;
+    color: $bege;
+}
+.banner-logo-container__strong{
+    font-size: 1.8rem;
+}
+    .banner-logo-container__medium{
+        font-size: 0.8rem;
+    }
+    .banner-logo-container__small{
+        font-size: 0.7rem;
+    }
+}
+@media (min-width: 768px){
+    .banner-logo-container{
+        line-height: 28px;
+    }
+    .banner-logo-container > p{
+    font-size: 1.9rem;
+    color: $bege;
+    padding-top: 2%;
+}
+.banner-logo-container__strong{
+    font-size: 2.4rem;
+}
+    .banner-logo-container__small{
+        font-size: 1rem;
+        line-height: 10px;
+        margin-left: 100px;
+    }
+.banner-logo-container__medium{
+    font-size: 1.6rem;
+    }
+    .banner-logo-container--right{
+        padding: 5px 10px;
+    }
+    .banner-logo-container--left{
+        padding: 5px 10px;
+    }
+}
+@media (min-width: 1024px){
+    .banner-logo-container{
+        line-height: 35px;
+    }
+    .banner-logo-container > p{
+        font-size: 2rem;
+        color: $bege;
+    }
+    .banner-logo-container__strong{
+        font-size: 2.8rem;
+    }
+    .banner-logo-container__medium{
+        font-size: 1.6rem;
+        margin-top: -10px;
+    }
+    .banner-logo-container__small{
+        display: block;
+        font-size: 1.2rem;
+    }
+    .banner-logo-faixa > img{
+        height: 230px;
+}
+}

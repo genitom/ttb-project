@@ -1,0 +1,109 @@
+.box{
+    margin-bottom: -332px;
+}
+.box-apresentacao-figure{
+   background: url(../../img/bg-apresentacao2.png) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    z-index: -1;
+    top: -250px;
+    height: auto;
+    position: relative;
+}
+.box-apresentacao-container{
+    position: relative;
+    height: 190px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.box-apresentacao-container__img1{
+    position: absolute;
+    max-width: 400px;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.box-apresentacao-container__img2{
+    position: absolute;
+    top: 130px;
+    max-width: 200px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.box-apresentacao-text{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.box-apresentacao-text > p{
+    font-family: tradeGothic;
+    color: $vermelhoescuro;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.box-apresentacao-text > span{
+    display: block;
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-family: oldTypography;
+    color: $vermelhoescuro;
+}
+@media (min-width: 768px){
+    .box-apresentacao{
+            background: url(../../img/bg-hero2.png);
+            position: relative;
+            width: 100%;
+            top: -210px; 
+            z-index: -1;
+            background-size: 100% 100%;
+        }
+    .box-apresentacao-container{
+        top:35px;
+    }
+    .box-apresentacao-figure{
+        background-size: 100% 100%;
+        background-position: center;
+        top: -90px;
+        min-width: 60%;
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 120px;
+    }
+    .box-apresentacao-text{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding-bottom: 100px;
+        max-width: 90%;
+        margin: 0 auto;
+}
+    .box-apresentacao-text > p{
+    font-family: tradeGothic;
+    color: $vermelhoescuro;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 0.7rem;
+}
+.box-apresentacao-text > span{
+    display: block;
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-family: oldTypography;
+    color: $vermelhoescuro;
+}
+    .box-apresentacao-text{
+        height: auto;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .box-apresentacao-text > p{
+        font-size: 0.9rem;
+    }
+}
